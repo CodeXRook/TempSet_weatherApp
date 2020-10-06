@@ -1,16 +1,19 @@
 {
   "name": "weather",
   "version": "1.0.0",
-  "description": " A Simple weather app",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --colors --mode=development",
-    "build":"webpack --mode=production"
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
