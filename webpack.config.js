@@ -17,3 +17,10 @@ const webpackConfig = {
         contentBase: DIR_DIST
     }
 }
+
+// setup babel-loader
+const babelConfig = {
+    test: /\.(js|jsx)$/,
+    exclude: /node_modules/,
+    use: ['babel-loader']
+}
