@@ -24,3 +24,14 @@ const babelConfig = {
     exclude: /node_modules/,
     use: ['babel-loader']
 }
+webpackConfig.module.rules.push(babelConfig);
+
+//CSS setup
+const cssConfig = {
+    test: /\.css4/,
+    exclude: /node_module/,
+    use: ['style-loader', 'css-loader']
+}
+webpackConfig.module.rules.push(cssConfig);
+
+module.exports = webpackConfig;
