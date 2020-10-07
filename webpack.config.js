@@ -18,6 +18,7 @@ const webpackConfig = {
     }
 }
 
+
 // setup babel-loader
 const babelConfig = {
     test: /\.(js|jsx)$/,
@@ -34,4 +35,4 @@ const cssConfig = {
 }
 webpackConfig.module.rules.push(cssConfig);
 
-module.exports = webpackConfig;
+module.exports = webpackConfig

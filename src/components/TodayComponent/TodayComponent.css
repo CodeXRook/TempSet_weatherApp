@@ -108,6 +108,10 @@
         flex-wrap: wrap;
     }
 
+    .today-component-container > div{
+        margin: 10px 0px;
+    }
+
     .date-container,.extra-info-container{
         flex: 100%;
     }

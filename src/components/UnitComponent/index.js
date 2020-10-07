@@ -1,2 +1,3 @@
-import UnitComponent from './UnitComponent';
+import UnitComponent from './UnitComponent.jsx';
+
 export default UnitComponent;

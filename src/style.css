@@ -6,19 +6,18 @@
 body{
     font-family: Helvetica, sans-serif;
     background-color: #23262b;
-    color: white;
 }
+
 #root{
-    height: 100vh;
+    height: 100vh;    
 }
 
 .wi-blue{
     color:#00acee;
-    }
-    .wi-yellow{
+}
+.wi-yellow{
     color:#fdc201
-    }
-    .wi-gray{
+}
+.wi-gray{
     color:#6c7a89
-    }
-    
+}
